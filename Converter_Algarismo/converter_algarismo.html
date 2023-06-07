@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adiciona o link para o Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <title>Teste de programação</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 text-center">Conversor de Números</h1>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
+        <p class="lead">Digite o valor para ser convertido: </p>
+          <input
+            type="text"
+            class="form-control mb-3"
+            id="number"
+            placeholder="Digite o número"
+          />
+          <p class="lead">Deseja converter em: </p>
+          <select class="form-select mb-3" id="tipoConversao">
+            <option value="romano">Romano</option>
+            <option value="arabico">Arábico</option>
+          </select>
+          <button class="btn btn-primary mb-3" id="send">Converter</button>
+          <p id="resultado" class="lead">Resultado: 0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Adiciona o link para o Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Linka com o arquivo JS -->
+    <script src="converter_algarismo.js" defer></script>
+  </body>
+</html>
