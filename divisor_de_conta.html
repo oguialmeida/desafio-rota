@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Incremental</title>
+    <style>
+        body {
+            background-color: #e6f9e6; /* tom de verde claro */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #lista {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        button {
+            margin: 10px;
+        }
+        .container {
+            border-radius: 8px;
+            background-color: rgb(118, 255, 118);
+            padding: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista Incremental</h1>
+    </div>
+    <ul id="lista">
+    </ul>
+    <button onclick="adicionarItem()">Adicionar Item</button>
+    <button onclick="removerTodosItens()">Remover Todos</button>
+    <script src="divisor_de_conta.js"></script>
+</body>
+</html>
