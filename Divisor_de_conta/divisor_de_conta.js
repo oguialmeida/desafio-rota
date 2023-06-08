@@ -7,14 +7,14 @@ calculadora somente faz a divisão de uma conta por vez.
 - Um produto pode ter sido consumido por vários ou um cliente;
 - Deve ser verificado a inclusão dos 10% do serviço para cada pessoa individualmente,
 sendo a taxa aplicada ao valor que cada um gastou.
- */
+*/
 
 let contador = 0;
 
 function adicionarItem() {
     let novoItem = document.createElement("li")
     contador++
-    novoItem.innerText = "Item " + contador + " "
+    novoItem.innerText = "Cliente " + contador + " "
     let botaoRemover = document.createElement("button")
     botaoRemover.innerText = "Remover"
     botaoRemover.onclick = function() { removerItem(botaoRemover.parentNode) }
@@ -22,6 +22,6 @@ function adicionarItem() {
     document.getElementById("lista").appendChild(novoItem)
 }
 
-function removerItem() {
+function removerItem(item) {
     item.parentNode.removeChild(item)
 }
