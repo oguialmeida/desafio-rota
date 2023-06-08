@@ -1,3 +1,6 @@
+/* A sua tarefa será fazer um conversor de números romanos para arábicos e vice-versa.
+Para a tarefa, considerar apenas números inteiros positivos entre 1 e 3999. */
+
 let contador = 0;
 let itensPorCliente = {};
 
