@@ -1,5 +1,6 @@
-/* A sua tarefa será fazer um conversor de números romanos para arábicos e vice-versa.
-Para a tarefa, considerar apenas números inteiros positivos entre 1 e 3999. */
+/* A sua tarefa será criar uma calculadora capaz de dividir a conta de um estabelecimento
+para cada cliente considerando somente o consumido por cada um. Considerar que a
+calculadora somente faz a divisão de uma conta por vez. */
 
 let contador = 0;
 let itensPorCliente = {};
